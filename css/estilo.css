@@ -1,0 +1,202 @@
+html {
+    font-family: sans-serif;
+    min-width: 1200px;
+    width: 100%;
+}
+
+body {
+    background-color: #f8f6f7;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 5px;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+.um {
+    color: #f35926;
+    font-size: 30px;
+}
+
+.dois {
+    color: #fcb929;
+    font-size: 30px;
+}
+
+.tres {
+    color: #00b049;
+    font-size: 30px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.fundo {
+    position: absolute;
+    z-index: -2;
+    min-width: 1200px;
+    width: 100%;
+    height: 400px;
+}
+
+.fundo-paisagem {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    min-width: 1000px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+
+.fundo-paisagem>form {
+    margin-top: 50px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+form>p {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;    
+}
+
+form>button {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #ea3d35;
+    cursor: pointer;
+	text-align: center;
+	border: 1px solid #ea3d35;
+	border-radius: 5px;
+	padding: 5px 12px;
+}
+
+input {
+    font-size: 18px;
+    max-width: 170px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.principal {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+.voos {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.viagem-desconto{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 200px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    row-gap: 25px;
+    padding-top: 40px;
+}
+
+.viagem-desconto>button {
+    background: #ffffff;
+    cursor: pointer;
+	text-align: center;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	padding: 5px 12px;
+    box-shadow: 1px 1px 4px 0px black;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.preco-viagens {
+    font-size: 30px;
+}
+
+.rio {
+    background-image: url(/img/rio.webp);
+    background-size: 400px;
+    background-position: center;
+}
+
+.bonito {
+    background-image: url(/img/bonito.webp);
+    background-size: 400px;
+    background-position: center;
+}
+
+.sao-paulo {
+    background-image: url(/img/sao-paulo.webp);
+    background-size: 190%;
+    background-position: initial;
+}
+
+.foz {
+    background-image: url(/img/foz.webp);
+    background-size: 200%;
+    background-position: center;
+}
+
+.maceio {
+    background-image: url(/img/maceio.webp);
+    background-size: 200%;
+    background-position: center;
+}
+
+.salvador {
+    background-image: url(/img/salvador.webp);
+    background-size: 200%;
+    background-position: center;
+}
+
+.fortaleza {
+    background-image: url(/img/fortaleza.webp);
+    background-size: 200%;
+    background-position: center;
+}
+
+.bh {
+    background-image: url(/img/belo-horizonte.webp);
+    background-size: 200%;
+    background-position: center;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+}
