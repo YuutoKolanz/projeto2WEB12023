@@ -148,49 +148,49 @@ p {
 }
 
 .rio {
-    background-image: url(/img/rio.webp);
+    background-image: url(./img/rio.webp);
     background-size: 400px;
     background-position: center;
 }
 
 .bonito {
-    background-image: url(/img/bonito.webp);
+    background-image: url(./img/bonito.webp);
     background-size: 400px;
     background-position: center;
 }
 
 .sao-paulo {
-    background-image: url(/img/sao-paulo.webp);
+    background-image: url(./img/sao-paulo.webp);
     background-size: 190%;
     background-position: initial;
 }
 
 .foz {
-    background-image: url(/img/foz.webp);
+    background-image: url(./img/foz.webp);
     background-size: 200%;
     background-position: center;
 }
 
 .maceio {
-    background-image: url(/img/maceio.webp);
+    background-image: url(./img/maceio.webp);
     background-size: 200%;
     background-position: center;
 }
 
 .salvador {
-    background-image: url(/img/salvador.webp);
+    background-image: url(./img/salvador.webp);
     background-size: 200%;
     background-position: center;
 }
 
 .fortaleza {
-    background-image: url(/img/fortaleza.webp);
+    background-image: url(./img/fortaleza.webp);
     background-size: 200%;
     background-position: center;
 }
 
 .bh {
-    background-image: url(/img/belo-horizonte.webp);
+    background-image: url(./img/belo-horizonte.webp);
     background-size: 200%;
     background-position: center;
 }
